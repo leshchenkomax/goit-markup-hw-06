@@ -736,7 +736,7 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: 1px;
+  margin: -1px;
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
@@ -763,16 +763,15 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration-line: underline;
   color: var(--hover-color);
 }
-/* .input-checkbox :checked + .icon-checkbox {
+.input-checkbox:checked + .icon-checkbox {
   background-image: url(../images/checkbox.svg);
   border: none;
 }
 .input-checkbox:focus + .icon-checkbox {
   border-color: var(--hover-color);
-} */
+}
 
 .close-button {
   position: absolute;
