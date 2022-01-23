@@ -62,8 +62,6 @@ img {
   margin-left: auto;
 }
 .contact-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
 }
 
@@ -652,7 +650,7 @@ img {
   min-width: 528px;
   min-height: 581px;
   border-radius: 4px;
-  padding: 40px;
+  padding: 34px;
   background-color: var(--text-color);
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
@@ -751,6 +749,7 @@ img {
   background-origin: border-box;
   background-image: url(../images/no-checbox.svg);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .label-checkbox {
   font-size: 14px;
@@ -843,6 +842,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 
   align-items: center;
   letter-spacing: 0.03em;
